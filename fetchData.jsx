@@ -91,7 +91,7 @@ function App() {
   const [currentPage, setCurrentPage] = useState(1);
   const pageSize = 10;
   const [{ data, isLoading, isError }, doFetch] = useDataApi(
-    "https://hn.algolia.com/api/v1/search?query=web+development",
+    "https://hn.algolia.com/api/v1/search?query=job+web+development",
     {
       hits: [],
     }
